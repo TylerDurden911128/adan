@@ -10,13 +10,21 @@ you should have installed, docker, docker-compose and psycopg2
 2.- open new terminal and run commad: python create_table.py
 
 3.- write one by one the next lines:
+    
     Audi 52642
+    
     Mercedes 57127
+    
     Skoda 9000
+    
     Volvo 29000
+    
     Bentley 350000
+    
     Citroen 21000
+    
     Hummer 41400
+    
     Volkswagen 21600
     
 4.- open new terminal and run: psql -h :: -p 8001 -U postgres -d todos
